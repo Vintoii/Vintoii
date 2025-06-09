@@ -1,6 +1,7 @@
 -- Bootstrap loader script to fetch and execute full auto bid script from GitHub in Roblox (Delta Executor)
+-- Updated with the provided GitHub URL (raw link will be constructed)
 
-local rawScriptUrl = "https://raw.githubusercontent.com/yourusername/RobloxScripts/main/BidBattles_AutoScriptWithUI.lua"
+local rawScriptUrl = "https://raw.githubusercontent.com/Vintoii/Vintoii/main/BidBattles_AutoScriptWithUI.lua"
 
 local function fetchAndRunScript(url)
     local HttpService = game:GetService("HttpService")
